@@ -1,24 +1,59 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# 💰 AI Finance Platform
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+A full-stack AI-powered finance management platform built with **React 19**, **Next.js 15**, **Tailwind CSS**, **Supabase**, **Prisma**, **Clerk Authentication**, **Inngest**, **Arcjet**, and **Shadcn UI**.
 
-### Make sure to create a `.env` file with following variables -
+This project demonstrates real-world SaaS architecture and is designed to be **resume-ready**, scalable, and production-grade.
 
-```
-DATABASE_URL=
-DIRECT_URL=
+---
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+## 🚀 Features
 
-GEMINI_API_KEY=
+### 🔐 Authentication & Security
+- User authentication using Clerk
+- Protected routes and session handling
+- Rate limiting and bot protection using Arcjet
 
-RESEND_API_KEY=
+### 📊 Finance Management
+- Create and manage multiple accounts
+- Track income and expenses
+- Categorized transactions
+- Bulk delete, filter, and sort transactions
+- Monthly budget tracking
 
-ARCJET_KEY=
-```
+### 📈 Analytics & Charts
+- Expense bar charts
+- Monthly expense pie charts
+- Account-wise financial overview
+
+### 🤖 AI-Powered Capabilities
+- AI receipt scanner for automatic transaction creation
+- AI-generated monthly spending insights
+- Automated budget alert emails
+- Monthly financial report emails
+
+### ⏱ Background Jobs
+- Cron jobs using Inngest
+- Budget alerts
+- Recurring transactions
+- Monthly reports and insights generation
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React 19, Next.js 15, Tailwind CSS
+- **UI:** Shadcn UI
+- **Backend:** Next.js API Routes
+- **Database:** Supabase (PostgreSQL)
+- **ORM:** Prisma
+- **Authentication:** Clerk
+- **Background Jobs:** Inngest
+- **Security:** Arcjet
+- **AI:** Gemini API
+- **Emails:** Resend
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+
