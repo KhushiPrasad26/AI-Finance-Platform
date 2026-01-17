@@ -52,8 +52,3 @@ This project demonstrates real-world SaaS architecture and is designed to be **r
 - **AI:** Gemini API
 - **Emails:** Resend
 - **Deployment:** Vercel
-
----
-
-## 📂 Project Structure
-
